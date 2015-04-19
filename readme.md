@@ -8,3 +8,9 @@ DesignTaste是做的一个Android版客户端，只拥有网站的部分功能�
 ![image](https://github.com/huben/dribbble/raw/master/images/3.png)
 ![image](https://github.com/huben/dribbble/raw/master/images/4.png)
 ![image](https://github.com/huben/dribbble/raw/master/images/5.png)
+
+
+
+##关于我
+邮箱：itboygogogo@gmail.com, ben_speed@163.com
+qq:328472638
