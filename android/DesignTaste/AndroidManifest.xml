@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.huben.designtaste"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="com.huben.designtaste.CApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="5532680e67e58e53af001272" >
+        </meta-data>
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="Android_Channel_ID" />
+
+        <activity
+            android:name="com.huben.designtaste.activitys.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.huben.designtaste.activitys.HidpiViewActivity" />
+        <activity android:name="com.huben.designtaste.activitys.DetailActivity" />
+        <activity
+            android:name="com.huben.designtaste.activitys.ShareActivity"
+            android:theme="@style/Theme.CustomDialog" >
+        </activity>
+        <activity android:name="com.huben.designtaste.activitys.SettingActivity" />
+        <activity android:name="com.huben.designtaste.activitys.WebViewActivity" />
+    </application>
+
+</manifest>
